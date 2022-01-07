@@ -24,6 +24,7 @@ body{
     /* color: #292e31; */
     color: var(--main-font-color);
     -webkit-font-smoothing: antialiased;
+    padding-bottom:50px;
 }
 
 .center{text-align:center;}
@@ -48,12 +49,13 @@ a:hover{
 section{
     max-width:1200px;
     margin:0 auto;
+    padding:10px 30px;
 }
 
 .row{
     width:100%;
     /* margin-top:15px; */
-    padding: 40px 10px;
+    padding: 40px 0;
     z-index:0;
 }
 
@@ -85,6 +87,7 @@ header{
     text-align:right;
     padding:5px 30px;
     position: -webkit-sticky;
+    line-height:1.4;
 }
 
 header h1{
@@ -181,11 +184,6 @@ nav ul li a:hover{
 
 .headshot img{margin-left:-15px;}
 
-section{
-    padding:10px 30px;
-}
-
-
 .content p{
     margin-top:15px;
 }
@@ -202,9 +200,13 @@ section{
     margin-top:20px;
 }
 
+.flex-container:first-of-type{
+    flex: 1 0 98%;
+}
+
 .flex-container{
     flex: 1 0 48%;
-    padding:10px 15px 20px 15px;
+    padding:20px 10px;
     margin:10px;
     border:1px solid #CCC;
     background-color:#f8f8f8;
@@ -219,6 +221,9 @@ section{
     margin:15px 30px;
 }
 
+.skill-container p{
+    margin-top:5px;
+}
 
 .devicon{
     font-size:75px;
@@ -269,7 +274,7 @@ section{
 
 .ul-resume{
     list-style-type:none;
-    margin-top:10px;
+    margin:10px 0 0 25px;
 }
 .ul-resume li{
     max-width:900px;
@@ -382,6 +387,14 @@ textarea::-webkit-input-placeholder, .contact-form input[type="text"]::-webkit-i
         text-align:center;
     } */
 
+    section{
+        padding:10px 20px;
+    }
+
+    .flex-container:first-of-type, .flex-container{
+        flex: 1 0 100%;
+    }
+    
     .heading{
         text-align:center;
     }
@@ -396,9 +409,10 @@ textarea::-webkit-input-placeholder, .contact-form input[type="text"]::-webkit-i
   
   /*Mobile Phone*/
   @media (max-width: 575px) {
+   
+
     header nav ul{
         width: 100%;
         justify-content: center;
     }
-  
   }
