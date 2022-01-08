@@ -1,15 +1,12 @@
-// Sticky header scripting
-
-var header = document.getElementsByTagName('header');
-
-// Get position of header
-var sticky = header.offsetTop;
-
-// Call function on scroll
-window.onscroll = function() {
-    if (window.pageYOffset > sticky) {
-        header.classList.remove("sticky");
-    } else {
-    header.classList.add("sticky");
+// Add or remove sticky header on scroll event
+window.onscroll = function(e) {
+    if(this.oldScroll > this.scrollY){
+        document.getElementById('header').style.position = 'sticky';
+    }else{
+        document.getElementById('header').style.position = 'relative';
     }
-};
+    
+    this.oldScroll = this.scrollY;
+}
+
+
