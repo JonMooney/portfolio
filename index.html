@@ -33,27 +33,27 @@
     </header>
     <!--End Header-->
 
-    <!--Headshot, Name, and Work Title-->
-    <section class="top-content">
-        <img src="./assets/images/headshot2.jpg" height="230" alt="Headshot of Jon Mooney" />
-        <h1 class="big-text">
+    <!--Headshot, Name, and Role-->
+    <section class="center">
+        <img class="headshot" src="./assets/images/headshot2.jpg" height="230" alt="Headshot of Jon Mooney" />
+        <h1 class="name-text">
             Jon Mooney
         </h1>
         
-        <div class="bio-wrapper">
-            <div class="bio-tag">
+        <div class="role-wrapper">
+            <div class="role-tag">
                 Full Stack Web Developer
             </div>
         </div>
     </section>
-    <!--End of Headshot, Name, and Work Title-->
+    <!--End of Headshot, Name, and Role-->
     
     <!-- About Me Section -->
     <div class="row row-gray" id="about-me">
         <section class="content">
             <div class="heading">ABOUT ME</div>
 
-            <p class="name">Hi, I'm Jon Mooney</p>
+            <p class="about-name">Hi, I'm Jon Mooney</p>
 
             <p>
                 I am a full stack web developer located in the Sacramento, CA area. I have 10+ years of experience using technologies such as HTML, CSS, JavaScript, XML, ASP.Net and Photoshop. The majority of my professional experience was working with Hewlett Packard Enterprise on various high-visibility projects.
@@ -87,7 +87,9 @@
                 <div class="flex-container">
                     <h3>Horiseon Social Solution Services, Inc.</h3>
                     
-                    <img src="./assets/images/horiseon.png" alt="Horiseon accessibility project screenshots">
+                    <a href="https://jonmooney.github.io/horiseon-accessibility/" target="_blank" title="View the Horiseon Social Solutions deployed application">
+                        <img src="./assets/images/horiseon.png" alt="Horiseon accessibility project screenshots">
+                    </a>
                     
                     <p>
                         Horiseon Social Solution Services, Inc, a ficticious company, was in need of a developer to update their site to the latest HTML5 standards and to address accessibility concerns.
@@ -106,13 +108,15 @@
                         
                     </ul>
                         
-                    <a class="button" href="https://github.com/JonMooney/horiseon-accessibility" target="_blank">View on GitHub</a>
+                    <a class="button" href="https://jonmooney.github.io/horiseon-accessibility/" target="_blank" title="View the Horiseon Social Solutions deployed application">View Application</a>
                 </div>
 
                 <div class="flex-container">
                     <h3>Run Buddy</h3>
                     
-                    <img src="./assets/images/run-buddy.png" alt="Run buddy project screenshots">
+                    <a href="https://jonmooney.github.io/run-buddy/" target="_blank" title="View the Run Buddy deployed application">
+                        <img src="./assets/images/run-buddy.png" alt="Run buddy project screenshots">
+                    </a>
                     
                     <p>
                         A fully responsive web site that allows users to connect with a personal trainer. Includes various sections with company information, details on each trainers qualifications and style, and the specific steps to get into contact with them with an accompanying form.
@@ -127,7 +131,19 @@
                         <li>CSS</li>
                     </ul>
 
-                    <a class="button" href="https://github.com/JonMooney/run-buddy" target="_blank">View on GitHub</a>
+                    <a class="button" href="https://jonmooney.github.io/run-buddy/" target="_blank" title="View the Run Buddy deployed application">View Application</a>
+                </div>
+
+                <div class="flex-container">
+                    <h3>Project Title</h3>
+                    
+                    <img src="./assets/images/placeholder.png" alt="Placeholder for later project screenshots">
+                                        
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, id, delectus aspernatur perspiciatis fugiat illum sapiente similique enim, doloribus temporibus veritatis iste voluptates recusandae quidem reprehenderit hic velit dicta repudiandae.
+                    </p>
+
+                    <a class="button-disabled" href="javascript:void(0);">View Application</a>
                 </div>
 
                 <div class="flex-container">
@@ -139,19 +155,7 @@
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, id, delectus aspernatur perspiciatis fugiat illum sapiente similique enim, doloribus temporibus veritatis iste voluptates recusandae quidem reprehenderit hic velit dicta repudiandae.
                     </p>
 
-                    <a class="button" href="www.github.com" target="_blank">View on GitHub</a>
-                </div>
-
-                <div class="flex-container">
-                    <h3>Project Title</h3>
-                    
-                    <img src="./assets/images/placeholder.png" alt="Placeholder for later project screenshots">
-                    
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, id, delectus aspernatur perspiciatis fugiat illum sapiente similique enim, doloribus temporibus veritatis iste voluptates recusandae quidem reprehenderit hic velit dicta repudiandae.
-                    </p>
-
-                    <a class="button" href="www.github.com" target="_blank">View on GitHub</a>
+                    <a class="button-disabled" href="javascript:void(0);">View Application</a>
                 </div>
             </div>
         </section>
@@ -248,7 +252,7 @@
                 Hewlett Packard Enterprise / Modis Staffing
             </p>
             
-            <ul class="ul-resume">
+            <ul>
                 <li>
                     JavaScript front end development across all business units within Hewlett Packard Enterprise, providing support for both internal and external users
                 </li>
@@ -262,7 +266,7 @@
                 Accomplishments
             </p>
 
-            <ul class="ul-resume">
+            <ul>
                 <li>
                     Enterprise information libraries - Spanning all business units, these pages allowed customers/partners to easily find collateral for a particular product or solution based on a set of selectable criteria. These pages were the primary collateral interface superseding the official HPE interface due to better usability.
                 </li>
@@ -283,7 +287,7 @@
                 Education
             </p>
 
-            <ul class="ul-resume">
+            <ul>
                 <li>
                     Associates Degree in Web Application Development; MTI College, Sacramento, CA
                 </li>
@@ -305,7 +309,15 @@
                 Need a copy of my resume? Want to build something amazing together?
             </p>
             <p>
-                Fill out the form and I'll get back to you as soon as possible!
+                Call/text @ 916.583.1455
+            </p>
+            
+            <p>
+                Email @ <a href="mailto:jon.mooney@yahoo.com">jon.mooney@yahoo.com</a>
+            </p>
+            
+            <p>
+                Or, fill out the form below and I'll get back to you as soon as possible!
             </p>
 
             <form class="contact-form">
@@ -319,7 +331,7 @@
                 <textarea placeholder="Comments"></textarea>
             </form>
 
-            <a class="button" href="javascript::void(0)">Send</a>
+            <a class="button-disabled" href="javascript::void(0)">Send</a>
         </section>
     </div>
     <!--End of Contact Section-->
