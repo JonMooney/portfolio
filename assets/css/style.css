@@ -54,6 +54,8 @@ a:hover{
 
 .row-gray {
     background-color: lightgrey;
+    background: linear-gradient(#dedede, #b1b1b1);
+
     -webkit-clip-path: polygon(0 0%, 100% 5%, 100% 95%, 0% 100%);
     clip-path: polygon(0 0%, 100% 5%, 100% 95%, 0% 100%);
 }
