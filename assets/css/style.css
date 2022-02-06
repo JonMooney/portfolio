@@ -299,18 +299,22 @@ textarea::placeholder, .contact-form input[type="text"]::placeholder {
 
 /* Site Buttons */
 .button{
+    border:none;
+    outline:none;
     display:inline-block;
     margin-top:15px;
-    padding:6px 20px 8px 20px;
+    padding:12px 20px;
     background-color:#549657;
     border-radius: 5px;
     color:#FFF;
     text-decoration:none;
+    font-size:20px;
 }
 
 .button:hover{
     background-color:#4a844e;
     text-decoration:none;
+    cursor:pointer;
 }
 
 .button:visited, .button:active, .button-disabled:visited, .button-disabled:active{

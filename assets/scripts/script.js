@@ -1,3 +1,5 @@
+var formEl = document.getElementById("contact-form");
+
 // Add or remove sticky header on scroll event
 window.onscroll = function(e) {
     if(this.oldScroll > this.scrollY){
@@ -9,4 +11,8 @@ window.onscroll = function(e) {
     this.oldScroll = this.scrollY;
 }
 
+formEl.addEventListener("submit", (e)=>{
+    e.preventDefault();
+    console.log("submit form")
+})
 
